@@ -1,0 +1,494 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    margin-left: 10%;
+    padding-top: 5%;
+    border: 3px solid rgba(200, 200, 200, 0.2);
+    border-top: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo1 {
+    padding-left: 5%;
+}
+
+.menu {
+    margin-left: 63%;
+}
+
+.menu ul {
+    position: relative;
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 10%;
+}
+
+.menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.batman {
+    position: relative;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    border: 3px solid rgba(200, 200, 200, 0.2);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.batman p,
+h4 {
+    color: #FFFFFF;
+}
+
+.batman button {
+    margin-top: 3%;
+}
+
+.btn1,
+.btn2 {
+    background: linear-gradient(to right, rgba(236, 230, 230, 0.3), rgba(120, 0, 15, 0.3));
+    background-size: 250px;
+    background-position: left;
+    transition: background-position 0.3s;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-position: right;
+}
+
+.socials {
+    position: absolute;
+    position: fixed;
+    right: 12%;
+    top: 30%;
+    margin-right: -4.25%;
+}
+
+.socials img {
+    position: relative;
+    display: block;
+    padding: 10%;
+}
+
+.social {
+    position: absolute;
+    left: 37%;
+}
+
+.batcine {
+    background: #000000;
+}
+
+.bord,
+.bord2,
+.multimedias,
+.contenues,
+.flechdown2,
+.quiz-niv {
+    border: 3px solid rgba(200, 200, 200, 0.2);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 10.75%;
+    margin-right: 10.70%;
+}
+
+.flechdown {
+    background-color: #000000;
+    text-align: center;
+}
+
+.batcinema {
+    background-color: #000000;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.batcinema h2 {
+    color: #FFFFFF;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.batcinema .txt1 {
+    text-align: justify;
+    color: #FFFFFF;
+    padding-left: 10%;
+}
+
+.batcinema img {
+    margin-left: 10%;
+    margin-right: -5%;
+    width: 200px;
+    transition: transform 2;
+}
+
+.batcinema img:hover {
+    transform: scale(1.1);
+}
+
+.batcinema .img3 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: none;
+}
+
+.bcg2 {
+    width: 100%;
+    height: 80vh;
+}
+
+.vide {
+    color: transparent;
+    padding-bottom: 500px;
+}
+
+.nemesis {
+    background-color: #000000;
+}
+
+.bord2 {
+    border: 3px solid rgba(200, 200, 200, 0.2);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 10.75%;
+    margin-right: 10.70%;
+    padding-top: 10%;
+}
+
+.bord2 h2 {
+    color: #FFFFFF;
+    padding-left: 15%;
+}
+
+.bord2 p {
+    color: #FFFFFF;
+    padding-left: 15%;
+    text-align: justify;
+}
+
+.bord2 img {
+    padding-top: 10%;
+    width: 200px;
+    margin-left: 15%;
+    margin-right: -10%;
+    transition: transform 2;
+}
+.bord2 img:hover{
+    transform: scale(1.1);
+}
+.nemesis .img6 {
+    display: none;
+}
+
+.multimedias .slider {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.multimedias h2 {
+    color: #FFFFFF;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.slider {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.fleche1,
+.fleche2 {
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.fleche2 {
+    margin-left: 100%;
+}
+
+.slid-carde {
+    display: flex;
+    width: 90%;
+    height: 40vh;
+}
+
+.slid-carde img {
+    padding-left: 15%;
+    width: 35%;
+}
+
+.slid-carde .description {
+    background: linear-gradient(to right bottom, #EDDEBF 2%, #19587D);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 10%;
+}
+
+.slid-carde .description,
+h6,
+h5,
+p {
+    color: #FFFFFF;
+    padding-left: 3%;
+    font-size: 80%;
+    padding-top: 2%;
+}
+
+.slid-carde .description span {
+    color: #FFFF00;
+}
+
+.multimedias .video {
+    margin-left: 15%;
+    padding-bottom: 10%;
+}
+
+.video1 {
+    display: block;
+}
+
+.video2,
+.video3 {
+    display: none;
+}
+
+.formulaire {
+    background: linear-gradient(to right bottom, #EDDEBF 2%, #19587D);
+}
+
+.contenues .contenuesh3 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10%;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+.news-letter {
+    padding-top: 20px;
+}
+
+.contenues .contenues-form {
+    padding-left: 15%;
+}
+
+.contenues-form input {
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-right: 50%;
+}
+
+.contenues-form .confirmer {
+    color: #FFFFFF;
+    margin-left: 33%;
+    border: none;
+    background: linear-gradient(to right, rgba(236, 230, 230, 0.3), rgba(200, 0, 15, 0.3) 70%);
+    padding: 10px 50px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.contenues-form p {
+    font-size: 100%;
+    margin-left: -3%;
+    color: #C4C4C4;
+    margin-top: -15px;
+}
+
+.contenues-form .checkbox {
+    width: 15px;
+    height: 15px;
+    color: #FFFFFF;
+    border: 1px solid #19587D;
+}
+
+.contenues-form .submit {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    border: 1px solid #19587D;
+    padding: 7px 30px;
+    margin-left: 3%;
+}
+
+.contenues-form .subs {
+    margin-left: 13.5%
+}
+
+.contenues-form select {
+    color: #C4C4C4;
+    display: block;
+    border-bottom: 5%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-right: 9%;
+}
+
+.footer1 {
+    position: relative;
+    background-color: #000000;
+}
+
+.footer1 .text {
+    text-align: center;
+}
+
+.footer1 .guillemet1 {
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.footer1 .guillemet2 {
+    padding-left: 75%;
+}
+
+.footer1 .text .p1 {
+    font-size: 110%;
+}
+
+.footer2 {
+    margin-left: 35%;
+}
+
+.footer2 img {
+    padding: 2%;
+}
+
+.wb {
+    display: flex;
+    margin-left: 20%;
+    padding-top: 15%;
+}
+
+.wb img {
+    width: 5%;
+}
+
+.contenues-form .news {
+    margin-left: 0%;
+    border-bottom: 2px solid #555;
+    padding-left: 0;
+    margin-right: 30%;
+    color: #eee;
+    margin-top: 10px;
+}
+
+
+/*HOME FIN*/
+
+
+/* GAME*/
+
+.batman #gameh1 {
+    position: absolute;
+    color: #FFFFFF;
+    left: 10%;
+}
+
+.bordgame,
+.quiz {
+    background-color: #000000;
+}
+
+.flechdown2 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.quiz-niveau1 h4,
+.quiz-niveau2 h4 {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.quiz1 {
+    padding-left: 10%;
+}
+
+.rad {
+    width: 25px;
+    height: 25px;
+    color: #FFFFFF;
+    border: 1px solid #19587D;
+}
+
+.quiz1 p {
+    font-size: 120%;
+    padding-left: 0;
+}
+
+.quiz1 .choix {
+    position: relative;
+    background-color: #888;
+    padding-left: 2%;
+    margin-right: 55%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 2%;
+}
+
+.quiz1 span {
+    position: absolute;
+    color: #FFFFFF;
+    top: 15%;
+    margin-left: 3%;
+}
+
+.quiz-niveau2 h4 {
+    padding-bottom: 10%;
+}
+
+.batgame2 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.bat-game2 {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.demarrer {
+    color: #FFFFFF;
+    margin-left: 40%;
+    border: none;
+    background: linear-gradient(to right, rgba(236, 230, 230, 0.3), rgba(200, 0, 15, 0.3) 70%);
+    padding: 10px 50px;
+    margin-top: 5%;
+}
